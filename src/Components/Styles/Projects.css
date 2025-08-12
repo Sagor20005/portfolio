@@ -1,0 +1,113 @@
+/* ________________PROJECT SECTION STYLE_________________ */
+
+.projects_section{
+  margin-block: 100px;
+  padding-top: 70px;
+}
+.section_title_box a{
+  flex-shrink: 0;
+  color: var(--text_color);
+}
+.projects{
+  margin-block: 20px;
+  font-size: var(--h6);
+}
+.projects .project{
+  padding: 20px;
+  border-radius: 13px;
+  border: .1px solid var(--a_color);
+  margin-block: 40px;
+}
+.projects .left img{
+  grid-area: left;
+}
+.projects .right img{
+  grid-area: right;
+}
+.project img{
+  width: 100%;
+  border-radius: 13px;
+  object-fit: cover;
+  object-position: center;
+}
+.project .p_name{
+  margin-block: 10px;
+}
+.project .p_title{
+  font-size: var(--h3);
+  margin-block: 10px;
+}
+.project .p_uses li{
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border: .1px solid var(--text_color);
+}
+.project .p_description{
+  margin-block: 10px;
+}
+.project a{
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text_color);
+  padding-block: 10px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  margin-block: 10px;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+.project .data a::after{
+  content: "Visit";
+  background-color: inherit;
+  color: inherit;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 40px;
+  transition: .5s;
+}
+.project .data a:hover::after{
+  top: 0;
+}
+
+.projects_section .projects_actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.projects_actions button{
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: .2px solid var(--text_color);
+  color: white;
+  transition: .5s;
+}
+.projects_actions button:hover{
+  background-color: var(--text_color);
+  color: var(--background_color);
+}
+@media(min-width:500px){
+  .projects .project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+    gap: 20px;
+  }
+  .project a{
+    width: 200px;
+    margin-inline: 10px;
+  }
+}
+/* ________________PROJECT SECTION STYLE_________________ */

@@ -1,0 +1,25 @@
+/* _________________CONTACT ME STYLING_______________ */
+.contact-me_section{
+  padding-top: 70px;
+  margin-block: 100px;
+}
+.contact-me_section .contact{
+  margin-block: 30px;
+}
+.contact-me_section .contact p{
+  margin-block: 20px;
+  font-weight: 100;
+}
+.contact a{
+  text-decoration: none;
+  color: var(--a_color);
+}
+.contact .social_links{
+  display: flex;
+  gap: 20px;
+  margin-block: 20px;
+}
+.contact .social_links img{
+  width: 40px;
+}
+/* _________________CONTACT ME STYLING_______________ */

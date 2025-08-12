@@ -1,0 +1,64 @@
+/* ___________________ABOUT ME STYLE________________ */
+.about-me_section{
+  padding-top: 70px;
+  margin-block: 100px;
+}
+.about-me_section .about img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 13px;
+}
+.about_data{
+  margin-block: 20px;
+}
+.about .about_data div{
+  padding: 10px;
+  margin-block: 20px;
+  border-radius: 13px;
+  border: .0005px solid var(--lighter_bg);
+}
+.about_data div h3{
+  color: var(--has_color);
+}
+.about_data div p, .about_data p{
+  margin-block: 10px;
+  font-size: var(--h5);
+  font-weight: 100;
+}
+p span{
+  color: var(--has_color);
+}
+.about_data .a_skills{
+  padding-inline: 15px 0px;
+}
+.a_skills li{
+  margin-block: 10px;
+}
+.about_data .about_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.about_footer button{
+  background-color: #d64eb6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+@media(min-width:1000px){
+  .about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .about-skills_journey{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+}
+/* ___________________ABOUT ME STYLE________________ */

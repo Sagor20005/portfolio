@@ -1,0 +1,7 @@
+footer{
+  padding-block: 100px;
+  border-top: .1px solid var(--a_color);
+}
+footer p{
+  text-align: center;
+}

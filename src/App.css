@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@font-face{
+  font-family: GoogleSans;
+  src: url(./Assets/GoogleSansCode-VariableFont_wght.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --text_color: #e4e9e1;
+  --a_color: #9e829a;
+  --has_color: #db28c2;
+  --background_color: #0f060d;
+  --lighter_bg: #512246;
+  --h1: 30px;
+  --h2: 25px;
+  --h3: 20px;
+  --h4: 16px;
+  --h5: 15px;
+  --h6: 13px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media(min-width:700px){
+  :root{
+    --h1: 70px;
+    --h2: 45px;
+    --h3: 40px;
+    --h4: 20px;
+    --h5: 19px;
+    --h6: 17px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GoogleSans;
 }
 
-.App-link {
-  color: #61dafb;
+.App{
+  padding: 20px;
+  padding-top: 70px;
+  color: var(--text_color);
+}
+body{
+  background-color: var(--background_color);
+  font-size: var(--h4);
+}
+.has{
+  color: var(--has_color);
+}
+a{
+  text-decoration: none;
+  color: var(--a_color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

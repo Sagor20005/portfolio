@@ -1,0 +1,35 @@
+/* __________________ SKILS SECTION STYLE________________ */
+.skills_section{
+  padding: 10px;
+  padding-top: 70px;
+}
+.section_title_box{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-block: 20px;
+}
+.section_title_box .title{
+  font-size: var(--h2);
+  flex-shrink: 0;
+}
+.section_title_box .hr_line{
+  height: .1px;
+  background: white;
+  width: 100px;
+  width: 100%;
+}
+.skills_icons_box{
+  margin-block: 20px;
+}
+.skills_icons_box .skill_icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-block: 40px;
+}
+.skill_icons img{
+  width: 50px;
+}
+
+/* __________________ SKILS SECTION STYLE________________ */
