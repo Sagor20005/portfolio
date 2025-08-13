@@ -29,7 +29,7 @@
   margin-block: 40px;
 }
 .skill_icons img{
-  width: 50px;
+  max-width: var(--icon_size);
 }
 
 /* __________________ SKILS SECTION STYLE________________ */

@@ -12,11 +12,11 @@ const data ={
       image:"/projects/newflex.jpg",
       name:"NEWFLEX",
       title:"Free Movie and Series Download.",
-      uses:["reactjs","expressjs","mongoose"],
-      description:"A website for download Any latest and old movies and web series free, no need login.",
+      uses:["reactjs","expressjs","mongoose","redux"],
+      description:"A website for download Any latest and old movies and web series free, no need login. The website run on free domain,free server",
       urls:{
-        github:"htt",
-        live:""
+        github:"https://github.com/Sagor20005/movie",
+        live:"https://newflex.vercel.app"
       }
     }
     ]

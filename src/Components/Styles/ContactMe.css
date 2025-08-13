@@ -20,6 +20,6 @@
   margin-block: 20px;
 }
 .contact .social_links img{
-  width: 40px;
+  width: var(--icon_size);
 }
 /* _________________CONTACT ME STYLING_______________ */

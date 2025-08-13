@@ -15,6 +15,7 @@
   --h4: 16px;
   --h5: 15px;
   --h6: 13px;
+  --icon_size: 50px;
 }
 @media(min-width:700px){
   :root{
@@ -24,6 +25,17 @@
     --h4: 20px;
     --h5: 19px;
     --h6: 17px;
+  }
+}
+@media(max-width:400px){
+  :root{
+    --h1: 29px;
+    --h2: 24px;
+    --h3: 19px;
+    --h4: 15px;
+    --h5: 14px;
+    --h6: 12px;
+    --icon_size: 40px;
   }
 }
 
