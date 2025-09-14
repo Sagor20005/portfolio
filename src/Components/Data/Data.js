@@ -5,7 +5,8 @@ const data ={
   typingText:["MERN Stack Devoloper","FULL Stack Devoloper","App Devoloper"],
   socials:{
     linkedin:"",
-    github:"https://github.com/Sagor20005"
+    github:"https://github.com/Sagor20005",
+    whatsapp:"https://wa.me/qr/KG7F7GAZAVY6G1"
   },
   projects:[
     {
