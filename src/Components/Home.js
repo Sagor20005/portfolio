@@ -106,8 +106,8 @@ function Home(){
             <span ref={TypingEl}></span>
           </div>
           <div className="home_links">
-            <Link to="" >Resume<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></Link>
-            <Link to="" >Github<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></Link>
+            <Link to={MyData?.socials?.resume || ""} >Resume<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></Link>
+            <Link to={MyData?.socials?.github || ""} >Github<FontAwesomeIcon icon={faArrowUpRightFromSquare} /></Link>
           </div>
         </div>
       </section>
