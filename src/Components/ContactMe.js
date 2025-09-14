@@ -1,5 +1,4 @@
-import "./Styles/ContactMe.css"
-import { Link } from "react-router-dom"
+Linkedinfrom "react-router-dom"
 import myData from "./Data/Data.js"
 
 function ContactMe(){
@@ -15,6 +14,8 @@ function ContactMe(){
           <div className="social_links">
             <Link to={myData?.socials?.github || ""}> <img src="/icons/github-dark.svg" alt="Github"/> </Link>
             <Link to={myData?.socials?.linkedin || ""}> <img src="/icons/linkedin-dark.svg" alt="Linkedin"/> </Link>
+            <Link to={myData?.socials?.whatsapp || ""}> <img src="/icons/whatsapp.png" alt="whatsapp"/> </Link>
+
           </div>
         </div>
       </section>
